@@ -1,0 +1,70 @@
+.rules {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: -100px;
+  z-index: -1;
+}
+
+.rules__wrapper {
+  background: #fff;
+  padding: 80px 0 260px 93px;
+  max-width: 1005px;
+  border-radius: 56px;
+  color: #21201f;
+}
+
+.rules__title {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 72px;
+}
+.rules__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.rules__item {
+  max-width: 362px;
+}
+
+.rules__icon {
+  display: block;
+  pointer-events: none;
+  margin-bottom: 24px;
+}
+.rules__subtitle {
+  font-size: 36px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+.rules__text {
+  font-size: 22px;
+}
+
+.insurance {
+  display: flex;
+  justify-content: flex-end;  
+  margin-top: -140px;
+  margin-bottom: 120px;;
+}
+.insurance__body {
+  background: #00CA50;
+  width: 645px;
+  padding: 83px;
+  border-radius: 56px;
+  bottom: 0;
+  right: 0;
+}
+
+.insurance__body img {
+  padding-bottom: 20px;
+}
+
+.insurance__text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 130%;
+}

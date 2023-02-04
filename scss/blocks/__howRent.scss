@@ -1,0 +1,95 @@
+.howRent {
+  padding: 100px 0 170px 0;
+  max-width: 920px;
+}
+
+.howRent__instruction {
+  margin-bottom: 100px;
+}
+
+.howRent__title {
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 100px;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 64px;
+    font-weight: 900;
+    text-align: start;
+  }
+}
+.howRent__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.howRent__image {
+  margin-bottom: 32px;
+  pointer-events: auto;
+}
+
+.howRent__text {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0 0 96px 0;
+}
+
+.howRent__icon {
+  padding-bottom: 32px;
+}
+
+.howRent__findInMap {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.howRent__display {
+  border-radius: 56px;
+  top: 171px;
+  left: calc(50% + 105px);
+  border-radius: 56px;
+}
+
+.howRent__video {
+  width: 360px;
+  height: 645px;
+  object-fit: fill;
+  border-radius: 56px;
+}
+
+.howRent__iconInstruction {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    display: block;
+    margin-top: -240px;
+  }
+}
+
+.howRent__icondirection {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+    position: relative;
+    top: 297px;
+    left: 30px;
+  }
+}
+
+.howRent__description {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  padding: 32px 0 0 0;
+}
